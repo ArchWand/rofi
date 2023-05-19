@@ -19,6 +19,17 @@ configuration {
 @import                          "colors.rasi"
 @import                          "fonts.rasi"
 
+/*****----- Colors -----*****/ 
+* {
+	background:     @trans-turqoise;
+	background-alt: @light-black;
+	foreground:     @white;
+	selected:       @teal;
+	active: 	    @lime-green;
+	urgent:         @pastel-red;
+	top-bar:        @blue-grey;
+}
+
 /*****----- Main Window -----*****/
 window {
     transparency:                "real";
@@ -34,7 +45,7 @@ window {
     padding:                     0px;
     border:                      1px solid;
     border-radius:               10px;
-    border-color:                @bordercolor;
+    border-color:                @selected;
     background-color:            @background;
     cursor:                      "default";
 }
