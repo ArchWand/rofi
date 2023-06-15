@@ -1,0 +1,15 @@
+window {
+	width: 800px;
+}
+
+inputbar {
+	children: [entry];
+}
+entry {
+	margin: 5px;
+}
+
+listview {
+	scrollbar: false;
+	fixed-height: false;
+}
